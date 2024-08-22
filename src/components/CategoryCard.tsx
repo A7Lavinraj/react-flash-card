@@ -19,7 +19,7 @@ export default function CategoryCard({
         callback(title);
       }}
       className={cn(
-        "size-60 rounded flex items-center justify-center hover:brightness-95",
+        "size-60 rounded flex items-center justify-center hover:brightness-95 border",
         backgroundColor,
         className,
       )}
