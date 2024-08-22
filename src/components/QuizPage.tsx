@@ -48,7 +48,7 @@ export default function QuizPage({
   }
 
   return (
-    <div className="mt-10 text-start flex flex-col gap-4 max-w-3xl mx-auto">
+    <div className="mt-10 text-start flex flex-col gap-4 max-w-3xl mx-auto px-5">
       <button type="button" className="mx-auto" onClick={callback}>
         back to home
       </button>
